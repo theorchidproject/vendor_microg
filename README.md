@@ -1,7 +1,6 @@
-# microG Mobile Services
+## microG Mobile Services
 
-## REMOVED FDROID STUFF AND ADDED AURORA INSTEAD
-
+## OrchidOS ROM secure minimal and alternative Google services 
 This is a collection of FOSS APKs, coupled with the respective Makefiles for an
 easy integration in the Android build system.
 
@@ -17,6 +16,16 @@ Example manifest:
 </manifest>
 ```
 
+Alternatively:
+
+```
+You can include in your vendor common.mk file found  within the vendor/(yourRom)/config folder 
+$(call inherit-product-if-exists, vendor/partner_gms/gms.mk)
+Also add this lower in same file 
+#microg
+WITH_GMS=true
+```
+
 The included APKs are:
    * Aurora Store, Droid, and Services (https://gitlab.com/AuroraOSS). Pre-signed prebuilts by dev (from gitlab always).
    * microG packages (binaries sourced from [here](https://microg.org/download.html))
@@ -28,3 +37,5 @@ The included APKs are:
 
 These are official unmodified prebuilt binaries, signed by the
 corresponding developers.
+
+Thank you to all developers for all the hard work 
