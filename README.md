@@ -4,12 +4,14 @@
 This is a collection of FOSS APKs, coupled with the respective Makefiles for an
 easy integration in the Android build system.
 
-To include them in your build, add a repo manifest file to include this repository as `vendor/partner_gms` and set
+To include them in your build,
+```
+add a repo manifest file to include this repository as `vendor/partner_gms` and set
 `WITH_GMS` to `true` when building.
 
 Example manifest:
 
-```xml
+xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <project path="vendor/partner_gms" name="theorchidproject/android_vendor_partner_gms" remote="github" revision="master" />
