@@ -13,7 +13,7 @@ Example manifest:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="vendor/partner_gms" name="azoller1/android_vendor_partner_gms" remote="github" revision="master" />
+    <project path="vendor/partner_gms" name="theorchidproject/android_vendor_partner_gms" remote="github" revision="master" />
 </manifest>
 ```
 
