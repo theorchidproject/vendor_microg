@@ -17,11 +17,15 @@ Example manifest:
 ```
 
 Alternatively:
-
 ```
-You can include in your vendor common.mk file found  within the vendor/(yourRom)/config folder 
+You can include this repo:
+git clone https://github.com/theorchidproject/partner_gms -b OrchidOS vendor/partner_gms 
+Within your root directory 
+
+You can include a vendor call at the Tipo of your common.mk file found within the vendor/(yourRom)/config folder:
 $(call inherit-product-if-exists, vendor/partner_gms/gms.mk)
-Also add this lower in same file 
+
+Also add this lower in same file:
 #microg
 WITH_GMS=true
 ```
