@@ -3,6 +3,4 @@ PRODUCT_PACKAGES += \
 	GsfProxy \
 	FakeStore \
 	IchnaeaNlpBackend \
-	NominatimGeocoderBackend \
-	AuroraStore \
-	AuroraServices
+	NominatimGeocoderBackend
