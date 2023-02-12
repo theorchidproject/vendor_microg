@@ -5,4 +5,7 @@ PRODUCT_PACKAGES += \
 	IchnaeaNlpBackend \
 	NominatimGeocoderBackend \
 	AuroraStore \
-	AuroraServices
+	AuroraServices \
+	GoogleBackupTransport \
+	GoogleCalendarSyncAdapter \
+	GoogleContactsSyncAdapter
